@@ -1,0 +1,13 @@
+train: D:/Studying/pyataeva/data/labeled/train/images
+val: D:/Studying/pyataeva/data/labeled/valid/images
+test: D:/Studying/pyataeva/data/labeled/test/images
+
+nc: 5
+names: ['Description', 'Kop', 'Kop_Disc', 'Rub', 'Rub_Disc']
+
+roboflow:
+  workspace: practice-bxesk
+  project: price_tag-dvi4l
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/practice-bxesk/price_tag-dvi4l/dataset/2

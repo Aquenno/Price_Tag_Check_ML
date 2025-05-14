@@ -1,8 +1,0 @@
-train: data/labeled/images/train
-val: data/labeled/images/val
-names:
-  0: Description  # Класс "Описание"
-  1: Rub # Класс "Рубли"
-  2: Kop # Класс "Копейки"
-  3: Rub_Disc # Класс "Рубли_Дисконтная_карта"
-  4: Kop_Disc # Класс "Копейки_Дисконтная_карта"

@@ -1,9 +1,13 @@
 from ultralytics import YOLO
 
-model = YOLO("yolov8n.pt")  # Предобученная модель
+# Загрузка модели (можно начать с предобученной 'yolov8n.pt')
+model = YOLO('yolov8n.pt')  # или 'yolov8s.pt' для меньшей модели
+
+# Запуск обучения
 results = model.train(
-    data="configs/dataset.yaml",
-    epochs=100,
-    imgsz=640,
-    batch=32
+    data='D:/Studying/pyataeva/configs/data.yaml',
+    epochs=100,            # количество эпох
+    batch=8,               # размер батча
+    imgsz=640,             # размер изображения
+    device='cpu'             # '0' для GPU, 'cpu' для CPU
 )
