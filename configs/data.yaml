@@ -1,6 +1,6 @@
-train: D:/Studying/pyataeva/data/labeled/train/images
-val: D:/Studying/pyataeva/data/labeled/valid/images
-test: D:/Studying/pyataeva/data/labeled/test/images
+train: C:/Users/user/Desktop/Price_Tag_Check_ML/data/labeled/train/images
+val: C:/Users/user/Desktop/Price_Tag_Check_ML/data/labeled/valid/images
+test: C:/Users/user/Desktop/Price_Tag_Check_ML/data/labeled/test/images
 
 nc: 5
 names: ['Description', 'Kop', 'Kop_Disc', 'Rub', 'Rub_Disc']

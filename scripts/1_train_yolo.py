@@ -5,8 +5,8 @@ model = YOLO('yolov8n.pt')  # или 'yolov8s.pt' для меньшей моде
 
 # Запуск обучения
 results = model.train(
-    data='D:/Studying/pyataeva/configs/data.yaml',
-    epochs=100,            # количество эпох
+    data='C:/Users/user/Desktop/Price_Tag_Check_ML/configs/data.yaml',
+    epochs=50,            # количество эпох
     batch=8,               # размер батча
     imgsz=640,             # размер изображения
     device='cpu'             # '0' для GPU, 'cpu' для CPU
